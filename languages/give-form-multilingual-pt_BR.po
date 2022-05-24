@@ -1,0 +1,3 @@
+# Give Form Multilingual tradução pt_BR
+msgid "Add snipets to make Polylang compatible with GiveWP receipts."
+msgstr "Adiciona snippets para compatibilidade do Polylang com recibos do GiveWP."
