@@ -1,11 +1,11 @@
 === Give Form Multilingual ===
 Contributors: @linknacional
 Donate link: https://www.linknacional.com.br/wordpress/givewp
-Tags: givewp, polylang, translate, form
-Requires at least: 4.7
+Tags: givewp, polylang, translate, form, localization
+Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 4.3
-Requires PHP: 7.0
+Stable tag: 1.0.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,17 +51,13 @@ Now the Give Form Multilingual plugin is up and running.
 
 = What is needed to use this plugin? =
 
-* GiveWP version 2.0.0 or latter installed and active.
+* GiveWP version 2.19.2 or latter installed and active.
 
 * Polylang version 3.2.3 or latter installed and active.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Example of a translated receipt.
 
 == Changelog ==
 
