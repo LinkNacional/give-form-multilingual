@@ -58,6 +58,7 @@ final class Lkn_Give_Form_Multilingual {
      * @access private
      */
     private function __construct() {
+        $this->load_plugin_textdomain();
         self::$instance = $this;
     }
 
@@ -129,6 +130,10 @@ final class Lkn_Give_Form_Multilingual {
 
         if (!defined('LKN_GIVE_FORM_MULTILINGUAL_BASENAME')) {
             define('LKN_GIVE_FORM_MULTILINGUAL_BASENAME', plugin_basename(LKN_GIVE_FORM_MULTILINGUAL_FILE));
+        }
+
+        if (!defined('LKN_GIVE_FORM_MULTILINGUAL_TRANSLATION_PATH')) {
+            define('LKN_GIVE_FORM_MULTILINGUAL_TRANSLATION_PATH', plugin_dir_path(__FILE__) . 'languages/');
         }
     }
 
@@ -271,6 +276,19 @@ final class Lkn_Give_Form_Multilingual {
         // Filters
         add_filter('plugin_action_links_' . LKN_GIVE_FORM_MULTILINGUAL_BASENAME, 'lkn_give_form_multilingual_plugin_row_meta', 10, 2);
     }
+
+    /**
+     * Load the plugin text domain for translation.
+     *
+     * @since    1.0.0
+     */
+    private function load_plugin_textdomain() {
+        load_plugin_textdomain(
+            'give-form-multilingual',
+            false,
+            dirname(dirname(plugin_basename(__FILE__))) . '/languages/'
+        );
+    }
 }
 
 /**
@@ -299,10 +317,10 @@ lkn_give_form_multilingual();
  */
 function lkn_give_form_multilingual_updater() {
     return new Lkn_Puc_Plugin_UpdateChecker(
-        'https://api.linknacional.com.br/v2/u/?slug=give-form-multilingual',
+        'https://api.linknacional.com.br/v2/u/?slug=give-form-multilingual&wp=1',
         __FILE__,
         'give-form-multilingual'
     );
 }
 
-// lkn_give_form_multilingual_updater();
+lkn_give_form_multilingual_updater();

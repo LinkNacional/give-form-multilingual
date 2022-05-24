@@ -19,7 +19,7 @@ function lkn_give_FORM_MULTILINGUAL_dependency_notice() {
         'https://givewp.com',
         __('Give', 'give'),
         __('version', 'give'),
-        GIVE_MULTI_CURRENCY_MIN_GIVE_VERSION,
+        LKN_GIVE_FORM_MULTILINGUAL_MIN_GIVE_VERSION,
         __('for the Give Translation Form to activate', 'give')
     );
 
