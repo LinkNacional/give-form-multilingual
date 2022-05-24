@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
  *
  * @since
  */
-function lkn_give_FORM_MULTILINGUAL_dependency_notice() {
+function lkn_give_form_multilingual_dependency_notice() {
     // Admin notice.
     $message = sprintf(
         '<strong>%1$s</strong> %2$s <a href="%3$s" target="_blank">%4$s</a>  %5$s %6$s+ %7$s.',
@@ -20,7 +20,7 @@ function lkn_give_FORM_MULTILINGUAL_dependency_notice() {
         __('Give', 'give'),
         __('version', 'give'),
         LKN_GIVE_FORM_MULTILINGUAL_MIN_GIVE_VERSION,
-        __('for the Give Translation Form to activate', 'give')
+        __('for the Give Form Multilingual to activate', 'give')
     );
 
     Give()->notices->register_notice([
