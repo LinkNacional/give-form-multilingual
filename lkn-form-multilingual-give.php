@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Give - Form Multilingual
+ * Plugin Name: Form Multilingual for GiveWP
  * Plugin URI:  https://www.linknacional.com.br/wordpress/givewp/
  * Description: Add snipets to make Polylang compatible with GiveWP receipts.
  * Version:     1.0.0
@@ -8,7 +8,7 @@
  * Author URI:  https://www.linknacional.com.br
  * License:     GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: give-form-multilingual
+ * Text Domain: lkn-form-multilingual-give
  */
 
 require_once __DIR__ . '/plugin-updater/plugin-update-checker.php';
@@ -117,7 +117,7 @@ final class Lkn_Give_Form_Multilingual {
         }
 
         if (!defined('LKN_GIVE_FORM_MULTILINGUAL_SLUG')) {
-            define('LKN_GIVE_FORM_MULTILINGUAL_SLUG', 'give-form-multilingual');
+            define('LKN_GIVE_FORM_MULTILINGUAL_SLUG', 'lkn-form-multilingual-give');
         }
 
         if (!defined('LKN_GIVE_FORM_MULTILINGUAL_DIR')) {
@@ -284,7 +284,7 @@ final class Lkn_Give_Form_Multilingual {
      */
     private function load_plugin_textdomain() {
         load_plugin_textdomain(
-            'give-form-multilingual',
+            'lkn-form-multilingual-give',
             false,
             dirname(dirname(plugin_basename(__FILE__))) . '/languages/'
         );
@@ -317,9 +317,9 @@ lkn_give_form_multilingual();
  */
 function lkn_give_form_multilingual_updater() {
     return new Lkn_Puc_Plugin_UpdateChecker(
-        'https://api.linknacional.com.br/v2/u/?slug=give-form-multilingual&wp=1',
+        'https://api.linknacional.com.br/v2/u/?slug=lkn-form-multilingual-give&wp=1',
         __FILE__,
-        'give-form-multilingual'
+        'lkn-form-multilingual-give'
     );
 }
 

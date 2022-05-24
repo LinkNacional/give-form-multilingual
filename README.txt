@@ -1,4 +1,4 @@
-=== Give Form Multilingual ===
+=== Form Multilingual for GiveWP ===
 Contributors: @linknacional
 Donate link: https://www.linknacional.com.br/wordpress/givewp
 Tags: givewp, polylang, translate, form, localization
@@ -15,9 +15,9 @@ Invoice payment generation and management for WooCommerce.
 
 **Dependencies**
 
-The Give Form Multilingual plugin is dependent on the GiveWP plugin, please make sure GiveWP is installed and properly configured before starting the Give Form Multilingual installation.
+The Form Multilingual for GiveWP plugin is dependent on the GiveWP plugin, please make sure GiveWP is installed and properly configured before starting the Form Multilingual for GiveWP installation.
 
-The Give Form Multilingual plugin is dependent on the Polylang translation plugin, please make sure that Polylang is installed and properly configured before starting the Give Form Multilingual installation.
+The Form Multilingual for GiveWP plugin is dependent on the Polylang translation plugin, please make sure that Polylang is installed and properly configured before starting the Form Multilingual for GiveWP installation.
 
 **User instructions**
 
@@ -29,7 +29,7 @@ The Give Form Multilingual plugin is dependent on the Polylang translation plugi
 
 4. Translate donation confirmation pages into preferred languages;
 
-Now the Give Form Multilingual plugin is up and running.
+Now the Form Multilingual for GiveWP plugin is up and running.
 
 == Installation ==
 
@@ -41,7 +41,7 @@ Now the Give Form Multilingual plugin is up and running.
 
 4. Click on the 'install now' button and then activate the installed plugin;
 
-Now the Give Form Multilingual plugin is up and running.
+Now the Form Multilingual for GiveWP plugin is up and running.
 
 == Frequently Asked Questions ==
 

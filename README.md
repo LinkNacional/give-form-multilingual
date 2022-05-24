@@ -1,12 +1,12 @@
-# Give Form Multilingual
+# Form Multilingual for GiveWP
 
 GiveWP Form Multilingual is a plugin containing the integration of GiveWP receipt pages with the Polylang translation plugin, allowing it to redirect the user to the translated receipt.
 
 ## Dependencies
 
-The Give Form Multilingual plugin is dependent on the GiveWP plugin, please make sure GiveWP is installed and properly configured before starting the Give Form Multilingual installation.
+The Form Multilingual for GiveWP plugin is dependent on the GiveWP plugin, please make sure GiveWP is installed and properly configured before starting the Form Multilingual for GiveWP installation.
 
-The Give Form Multilingual plugin is dependent on the Polylang translation plugin, please make sure that Polylang is installed and properly configured before starting the Give Form Multilingual installation.
+The Form Multilingual for GiveWP plugin is dependent on the Polylang translation plugin, please make sure that Polylang is installed and properly configured before starting the Form Multilingual for GiveWP installation.
 
 ## Installation
 
@@ -18,7 +18,7 @@ The Give Form Multilingual plugin is dependent on the Polylang translation plugi
 
 4) Click on the 'install now' button and then activate the installed plugin;
 
-Now the Give Form Multilingual plugin is up and running.
+Now the Form Multilingual for GiveWP plugin is up and running.
 
 ## Usage mode
 
@@ -30,7 +30,7 @@ Now the Give Form Multilingual plugin is up and running.
 
 4) Translate donation confirmation pages into preferred languages;
 
-Now the Give Form Multilingual plugin is up and running.
+Now the Form Multilingual for GiveWP plugin is up and running.
 
 ## Changelog
 
