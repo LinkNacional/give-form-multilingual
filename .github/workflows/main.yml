@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 env:
-  PLUGIN_NAME: give-form-multilingual
+  PLUGIN_NAME: lkn-give-form-multilingual
 
 jobs:
   release-build:
