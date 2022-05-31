@@ -3,7 +3,7 @@ Contributors: @linknacional
 Donate link: https://www.linknacional.com.br/wordpress/givewp
 Tags: givewp, polylang, translate, form, localization
 Requires at least: 5.0
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -37,7 +37,7 @@ Now the Form Multilingual for GiveWP plugin is up and running.
 
 2. In installed plugins look for the 'add new' option in the header;
 
-3. Click on the 'submit plugin' option in the page title and upload the give-form-multilingual.zip plugin;
+3. Click on the 'submit plugin' option in the page title and upload the lkn-give-form-multilingual.zip plugin;
 
 4. Click on the 'install now' button and then activate the installed plugin;
 

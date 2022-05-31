@@ -11,8 +11,6 @@
  * Text Domain: lkn-form-multilingual-give
  */
 
-require_once __DIR__ . '/plugin-updater/plugin-update-checker.php';
-
 // Exit if accessed directly. ABSPATH is attribute in wp-admin - plugin.php
 if (!defined('ABSPATH')) {
     exit;
@@ -309,18 +307,3 @@ function lkn_give_form_multilingual() {
 }
 
 lkn_give_form_multilingual();
-
-/**
- * Instance of update checker
- *
- * @return object
- */
-function lkn_give_form_multilingual_updater() {
-    return new Lkn_Puc_Plugin_UpdateChecker(
-        'https://api.linknacional.com.br/v2/u/?slug=lkn-form-multilingual-give&wp=1',
-        __FILE__,
-        'lkn-form-multilingual-give'
-    );
-}
-
-lkn_give_form_multilingual_updater();

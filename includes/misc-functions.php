@@ -20,7 +20,7 @@ function lkn_give_form_multilingual_dependency_notice() {
         __('Give', 'give'),
         __('version', 'give'),
         LKN_GIVE_FORM_MULTILINGUAL_MIN_GIVE_VERSION,
-        __('for the Give Form Multilingual to activate', 'give')
+        __('for the Form Multilingual for Give to activate', 'give')
     );
 
     Give()->notices->register_notice([
@@ -44,7 +44,7 @@ function lkn_give_form_multilingual_inactive_notice() {
         __('You must have', 'give'),
         'https://givewp.com',
         __('Give', 'give'),
-        __(' plugin installed and activated for the Give Form Multilingual', 'give')
+        __(' plugin installed and activated for the Form Multilingual for Give', 'give')
     );
 
     echo $message;
@@ -63,7 +63,7 @@ function lkn_give_form_multilingual_polylang_inactive_notice() {
         __('You must have', 'give'),
         'https://wordpress.org/plugins/polylang/',
         __('Polylang', 'give'),
-        __(' plugin installed and activated for the Give Form Multilingual', 'give')
+        __(' plugin installed and activated for the Form Multilingual for Give', 'give')
     );
 
     echo $message;
@@ -101,7 +101,7 @@ function lkn_give_form_multilingual_activation() {
         // Only runs on admin.
         $args = [
             'file' => LKN_GIVE_FORM_MULTILINGUAL_FILE,
-            'name' => __('Give Form Multilingual', 'give'),
+            'name' => __('Form Multilingual for Give', 'give'),
             'version' => LKN_GIVE_FORM_MULTILINGUAL_MIN_GIVE_VERSION,
             'documentation_url' => 'https://www.linknacional.com.br/wordpress/givewp/',
             'support_url' => 'https://www.linknacional.com.br/suporte/',
