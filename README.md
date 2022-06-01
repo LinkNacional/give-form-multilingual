@@ -1,6 +1,6 @@
 # Form Multilingual for GiveWP
 
-Form Multilingual for GiveWP is a plugin containing the integration of GiveWP receipt pages with the Polylang translation plugin, allowing it to redirect the user to the translated receipt.
+Form Multilingual for GiveWP is a plugin containing the integration of GiveWP receipt pages with the Polylang translation plugin, allowing it to redirect the user to the correct translated receipt.
 
 ## Dependencies
 
