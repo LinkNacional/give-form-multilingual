@@ -37,6 +37,18 @@ function lkn_give_form_multilingual_dependency_notice() {
  * @since
  */
 function lkn_give_form_multilingual_inactive_notice() {
+    $allowed_html = [
+        'a'      => [
+            'href'  => [],
+            'target' => [],
+        ],
+        'div'     => [
+            'class' => [],
+        ],
+        'p'     => [],
+        'strong' => [],
+    ];
+
     // Admin notice.
     $message = sprintf(
         '<div class="notice notice-error"><p><strong>%1$s</strong> %2$s <a href="%3$s" target="_blank">%4$s</a> %5$s.</p></div>',
@@ -47,7 +59,7 @@ function lkn_give_form_multilingual_inactive_notice() {
         __(' plugin installed and activated for the Form Multilingual for Give', 'give')
     );
 
-    echo $message;
+    echo wp_kses($message, $allowed_html);
 }
 
 /**
@@ -66,7 +78,19 @@ function lkn_give_form_multilingual_polylang_inactive_notice() {
         __(' plugin installed and activated for the Form Multilingual for Give', 'give')
     );
 
-    echo $message;
+    $allowed_html = [
+        'a'      => [
+            'href'  => [],
+            'target' => [],
+        ],
+        'div'     => [
+            'class' => [],
+        ],
+        'p'     => [],
+        'strong' => [],
+    ];
+
+    echo wp_kses($message, $allowed_html);
 }
 
 /**
