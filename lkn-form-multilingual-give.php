@@ -3,7 +3,7 @@
  * Plugin Name: Form Multilingual for GiveWP
  * Plugin URI:  https://www.linknacional.com.br/wordpress/givewp/
  * Description: Add snipets to make Polylang compatible with GiveWP receipts.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Link Nacional
  * Author URI:  https://www.linknacional.com.br
  * License:     GNU General Public License v2 or later
@@ -102,7 +102,7 @@ final class Lkn_Give_Form_Multilingual {
     private function setup_constants() {
         // Defines addon version number for easy reference.
         if (!defined('LKN_GIVE_FORM_MULTILINGUAL_VERSION')) {
-            define('LKN_GIVE_FORM_MULTILINGUAL_VERSION', '1.0.0');
+            define('LKN_GIVE_FORM_MULTILINGUAL_VERSION', '1.0.1');
         }
 
         // Set it to latest.
