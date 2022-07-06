@@ -34,5 +34,8 @@ Now the Form Multilingual for GiveWP plugin is up and running.
 
 ## Changelog
 
+### 1.0.1
+- Fix a bug with redirection hook for shortcode forms.
+
 ### v1.0.0
 - Version release.

@@ -1,15 +1,15 @@
 === Form Multilingual for GiveWP ===
-Contributors: @linknacional
+Contributors: linknacional
 Donate link: https://www.linknacional.com.br/wordpress/givewp
 Tags: givewp, polylang, translate, form, localization
 Requires at least: 5.0
 Tested up to: 6.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Invoice payment generation and management for WooCommerce.
+GiveWP and Polylang Form redirect to right donation receipt.
 
 == Description ==
 
@@ -61,10 +61,16 @@ Now the Form Multilingual for GiveWP plugin is up and running.
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix a bug with redirection hook for shortcode forms.
+
 = 1.0.0 =
 * Plugin launch.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+This version has important fixes to shortcode forms redirection.
 
 = 1.0.0 =
 * Plugin launch.
